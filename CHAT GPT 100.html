@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Box Model Example</title>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: grey;
+        border: radius 4px;;
+    }
+    .container {
+        width: 80%;
+        margin: 20px auto;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-width: medium;
+        padding: 20px;
+    }
+    .yellow-bar {
+        background-color: yellow;
+        padding: 10px 0;
+    }
+    .header {
+        text-align: center;
+        font-size: 24px;
+        color: #333;
+    }
+    .content {
+        padding: 20px;
+    }
+</style>
+</head>
+<body>
+
+<div class="yellow-bar">
+    <div class="header">Header</div>
+</div>
+
+<div class="container">
+    <div class="content">
+        <p>CONTENT AREA 1.</p>
+    </div>
+</div>
+
+</body>
+</html>
